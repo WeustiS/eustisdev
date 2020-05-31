@@ -1,0 +1,376 @@
+html(lang='en-us')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width,initial-scale=1')
+    meta(http-equiv='x-ua-compatible', content='IE=edge')
+    meta(name='generator', content='Source Themes Academic 4.6.3')
+    meta(name='author', content='William Eustis')
+    meta(name='description', content='Student, ML Engineer, and EE Major')
+    link(rel='alternate', hreflang='en-us', href='https://eustis.dev/')
+    meta(name='theme-color', content='#2962ff')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css', integrity='sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=', crossorigin='anonymous')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css', integrity='sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=', crossorigin='anonymous')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css', integrity='sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=', crossorigin='anonymous')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css', crossorigin='anonymous', title='hl-light', disabled='')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css', crossorigin='anonymous', title='hl-dark')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js', integrity='sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=', crossorigin='anonymous', async='')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap')
+    link(rel='stylesheet', href='/css/demo.css')
+    link(rel='alternate', href='/index.xml', type='application/rss+xml', title='William Eustis')
+    link(rel='icon', type='image/png', href='/img/icon-32.png')
+    link(rel='apple-touch-icon', type='image/png', href='/img/icon-192.png')
+    link(rel='canonical', href='https://eustis.dev/')
+    meta(property='twitter:card', content='summary_large_image')
+    meta(property='twitter:site', content='@william_eustis')
+    meta(property='twitter:creator', content='@william_eustis')
+    meta(property='og:site_name', content='William Eustis')
+    meta(property='og:url', content='https://eustis.dev/')
+    meta(property='og:title', content='William Eustis')
+    meta(property='og:description', content='Student, ML Engineer, and EE Major')
+    meta(property='og:image', content='https://eustis.dev/img/presenting.jpg')
+    meta(property='twitter:image', content='https://eustis.dev/img/presenting.jpg')
+    meta(property='og:locale', content='en-us')
+    meta(property='og:updated_time', content='2019-12-27T00:00:00+00:00')
+    script(type='application/ld+json').
+      {"@context":"https://schema.org","@type":"WebSite","potentialAction":{"@type":"SearchAction","target":"https://eustis.dev?q={search_term_string}","query-input":"required name=search_term_string"},"url":"https://eustis.dev"}
+    title William Eustis
+  body#top.dark(data-spy='scroll', data-offset='70', data-target='#navbar-main')
+    aside#search.search-results
+      .container
+        section.search-header
+          .row.no-gutters.justify-content-between.mb-3
+            .col-6
+              h1 Search
+            .col-6.col-search-close
+              a.js-search(href='#')
+                i.fas.fa-times-circle.text-muted(aria-hidden='true')
+          #search-box
+            input#search-query(name='q', placeholder='Search...', autocapitalize='off', autocomplete='off', autocorrect='off', spellcheck='false', type='search')
+        section.section-search-results
+          #search-hits
+    nav#navbar-main.navbar.navbar-expand-lg.navbar-light.compensate-for-scrollbar
+      .container
+        .d-none.d-lg-inline-flex
+          a.navbar-brand(href='/') William Eustis
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbar-content', aria-controls='navbar', aria-expanded='false', aria-label='Toggle navigation')
+          span
+            i.fas.fa-bars
+        .navbar-brand-mobile-wrapper.d-inline-flex.d-lg-none
+          a.navbar-brand(href='/') William Eustis
+        #navbar-content.navbar-collapse.main-menu-item.collapse.justify-content-start
+          ul.navbar-nav.d-md-inline-flex
+            li.nav-item
+              a.nav-link.active(href='/#about', data-target='#about')
+                span Home
+            li.nav-item
+              a.nav-link(href='/#posts', data-target='#posts')
+                span Posts
+            li.nav-item
+              a.nav-link(href='/#projects', data-target='#projects')
+                span Projects
+            li.nav-item
+              a.nav-link(href='/#featured', data-target='#featured')
+                span Publications
+            li.nav-item
+              a.nav-link(href='/#contact', data-target='#contact')
+                span Contact
+            li.nav-item
+              a.nav-link(href='https://drive.google.com/file/d/1XrcMi9_gxnDyk9OfbynzSLzy3S4TJ3V-/view?usp=sharing')
+                span Resume
+        ul.nav-icons.navbar-nav.flex-row.ml-auto.d-flex.pl-md-2
+          li.nav-item
+            a.nav-link.js-search(href='#')
+              i.fas.fa-search(aria-hidden='true')
+          li.nav-item
+            a.nav-link.js-dark-toggle(href='#')
+              i.fas.fa-sun(aria-hidden='true')
+    span.js-widget-page.d-none
+    section#about.home-section.wg-about
+      .container
+        .row
+          .col-12.col-lg-4
+            #profile
+              img.portrait(src='images/img.jpg', alt='Avatar')
+              .portrait-title
+                h2 William Eustis
+                h3 Student, ML Engineer, and EE Major
+                h3
+                  a(href='https://illinois.edu/', target='_blank', rel='noopener')
+                    span University of Illinois
+              ul.network-icon(aria-hidden='true')
+                li
+                  a(href='mailto:william@eustis.dev')
+                    i.fas.fa-envelope.big-icon
+                li
+                  a(href='https://twitter.com/william_eustis', target='_blank', rel='noopener')
+                    i.fab.fa-twitter.big-icon
+                li
+                  a(href='https://github.com/weustis', target='_blank', rel='noopener')
+                    i.fab.fa-github.big-icon
+                li
+                  a(href='/files/resume.pdf')
+                    i.fas.fa-file.big-icon
+          .col-12.col-lg-8
+            h1 Biography
+            p
+              | William Eustis is a student at the University of Illinois at Urbana-Champaign. After learning about the applications of Computer Vision and Machine Learning from playing competitive eSports in High School, he self-taught and began interning at Mayhem Interactive. After working in Computer Vision, Frontend Development, App Development, and Edge ML on low-resource devices he found himself ready to learn more at the University of Illnois. He currently is majoring in Electrical Engineering and planning to minor in Math, Statistics, and Computer Science.
+            .row
+              .col-md-5
+                h3 Interests
+                ul.ul-interests
+                  li Computer Vision
+                  li FPGA and ASIC Design
+                  li Birdwatching
+              .col-md-7
+                h3 Education
+                ul.ul-edu.fa-ul
+                  li
+                    i.fa-li.fas.fa-graduation-cap
+                    .description
+                      p.course BS in Electrical Engineering, 2023
+                      p.institution University of Illinois at Urbana-Champaign
+    section#experience.home-section.wg-experience
+      .container
+        .row
+          .col-12.col-lg-4.section-heading
+            h1 Experience
+          .col-12.col-lg-8
+            .row.experience
+              .col-auto.text-center.flex-column.d-none.d-sm-flex
+                .row.h-50
+                  .col  
+                  .col  
+                .m-2
+                  span.badge.badge-pill.border.exp-fill  
+                .row.h-50
+                  .col.border-right  
+                  .col  
+              .col.py-2
+                .card
+                  .card-body
+                    h4.card-title.exp-title.text-muted.mt-0.mb-1 Data Science Team
+                    h4.card-title.exp-company.text-muted.my-0
+                      a(href='https://www.countryfinancial.com/', target='_blank', rel='noopener') COUNTRY Financial DigitaLab
+                    .text-muted.exp-meta
+                      | Aug 2019 –
+                      | Present
+                      span.middot-divider
+                      span Champaign, IL
+                    .card-text
+                      | Working in small, scrum-based teams to complete semester long projects including:
+                      ul.experience_list
+                        li
+                          | Applying SHAP methodologies to complex models to provide explainability and ensure robustness
+                        li
+                          | Converting existing SQL and LDAP database systems to a graphical database in order to: provide insights on enterprise risk, increase query efficiency, and allow for simple and easy identity management
+                        li
+                          | Increasing accuracy for a risk-predicting model that leverages images of a property by: comparing new and old Cloud ML providers, drastically increasing dataset through augmentation, and providing more beneficial metrics to measure model performance
+                        li
+                          | Creating a robust offline solution that utilizes Computer Vision and drones on low-processing power devices to detect and label features as well as provide a live annotation framework
+            .row.experience
+              .col-auto.text-center.flex-column.d-none.d-sm-flex
+                .row.h-50
+                  .col.border-right  
+                  .col  
+                .m-2
+                  span.badge.badge-pill.border  
+                .row.h-50
+                  .col.border-right  
+                  .col  
+              .col.py-2
+                .card
+                  .card-body
+                    h4.card-title.exp-title.text-muted.mt-0.mb-1 Data Science and App Development
+                    h4.card-title.exp-company.text-muted.my-0
+                      a(href='https://tallo.com/', target='_blank', rel='noopener') Tallo
+                    .text-muted.exp-meta
+                      | Jun 2019 –
+                      | Aug 2019
+                      span.middot-divider
+                      span Mount Pleasant, SC
+                    .card-text
+                      | Responsibilities included:
+                      ul.experience_list
+                        li
+                          | Developing a tool to rate student profile quality in order to showcase the best profiles to employers, scholarship providers, and award donors
+                        li Integrating thorough tracking software to provide increased business analytics
+                        li
+                          | Catagorized free=form student activity desciptions using state of the art topic modelling algorithms to allow for better matching between employers, scholarship providers, and award donors
+                        li
+                          | Created a tool to predict recipient response based on past email interactions, student profile content, and email content
+            .row.experience
+              .col-auto.text-center.flex-column.d-none.d-sm-flex
+                .row.h-50
+                  .col.border-right  
+                  .col  
+                .m-2
+                  span.badge.badge-pill.border  
+                .row.h-50
+                  .col  
+                  .col  
+              .col.py-2
+                .card
+                  .card-body
+                    h4.card-title.exp-title.text-muted.mt-0.mb-1 Computer Vision Intern
+                    h4.card-title.exp-company.text-muted.my-0
+                      a(href='https://mayhem.gg/', target='_blank', rel='noopener') Mayhem Interactive
+                    .text-muted.exp-meta
+                      | Jun 2018 –
+                      | Aug 2018
+                      span.middot-divider
+                      span San Francisco, CA
+                    .card-text
+                      | Trained a CNN to detect exciting moments in eSports games
+                      ul.experience_list
+                        li
+                          | Levereged NLP tools on chatrooms to automatically label hours of gameplay pulled off of twitch.tv
+                        li Accomodated for class imbalance using data augmentation
+                        li Utilized cloud-computing to train with large dataset (2TB)
+    section#projects.home-section.wg-portfolio
+      .container
+        .margin-auto
+          .center-text
+            h1.mt-0 Projects
+            p
+              | By no means a full list. I keep only current projects up. If you want past projects, I encourage you to email me :)
+          div
+            .row.js-layout-row.project-showcase.mt-5
+              .col-lg-12.project-item.isotope-item.js-id-frontend.js-id-website-dev
+                .row.align-items-center
+                  .col-12.col-md-6
+                    h3.article-title.mb-0.mt-0 This Website!
+                    .article-style Always a WIP!
+                    .btn-links
+                  .col-12.col-md-6.order-first
+              .col-lg-12.project-item.isotope-item.js-id-machine-learning.js-id-deep-learning.js-id-SLAM
+                .row.align-items-center
+                  .col-12.col-md-6
+                    h3.article-title.mb-0.mt-0 NVIDIA Jetson ORBSLAM for Large Maps
+                    .article-style
+                      | Using the ORBSLAM algorithm and NNs to assist with long distances running on a NVIDIA Jetson to create accurate pointclouds of large maps.
+                    .btn-links
+                  .col-12.col-md-6.order-first
+              .col-lg-12.project-item.isotope-item.js-id-GAN.js-id-Doodles
+                .row.align-items-center
+                  .col-12.col-md-6
+                    h3.article-title.mb-0.mt-0 DoodleGAN!
+                    .article-style
+                      | This was our Hackathon project at Vandyhacks. We trained a Catagorical WGAN on Google's ‘Quick, Draw!’ dataset to generate realistic drawings. It is not currently hosted because server costs :(, sorry!
+                    .btn-links
+                  .col-12.col-md-6.order-first
+              .col-lg-12.project-item.isotope-item.js-id-LSTM.js-id-FPGA.js-id-Optimization.js-id-low-resource
+                .row.align-items-center
+                  .col-12.col-md-6
+                    h3.article-title.mb-0.mt-0 Optimizing LSTMs on FPGAs
+                    .article-style
+                      | Optimizing LSTM performance on FPGAs using a variety of techniques such as mixed precision, caching, and good ‘ol estimation. Application is stock prediction.
+                    .btn-links
+                  .col-12.col-md-6.order-first
+    section#publications.home-section.wg-pages
+      .container
+        .row
+          .col-12.col-lg-4.section-heading
+            h1 Recent Publications
+          .col-12.col-lg-8
+            .media.stream-item
+              .media-body
+                h3.article-title.mb-0.mt-0
+                  a(href='/publication/placeholder/') Nothing... Yet! I'm working on it :)
+                .stream-meta.article-metadata
+                  div
+                    span
+                      a(href='/authors/william-eustis/') William Eustis
+                .btn-links
+                  button.btn.btn-outline-primary.my-1.mr-1.btn-sm.js-cite-modal(type='button', data-filename='/publication/placeholder/cite.bib')
+                    | Cite
+              .ml-3
+    section#contact.home-section.wg-contact
+      .container
+        .row.contact-widget
+          .col-12.col-lg-4.section-heading
+            h1 Contact
+            p
+              | Email me! I'd love to hear how you found the site and what you do. Really! If you're reading this, tell me about yourself
+          .col-12.col-lg-8
+            .mb-3
+              form(name='contact', method='post', action='https://formspree.io/william@eustis.dev')
+                .form-group.form-inline
+                  label.sr-only(for='inputName') Name
+                  input#inputName.form-control.w-100(type='text', name='name', placeholder='Name', required='')
+                .form-group.form-inline
+                  label.sr-only(for='inputEmail') Email
+                  input#inputEmail.form-control.w-100(type='email', name='email', placeholder='Email', required='')
+                .form-group
+                  label.sr-only(for='inputMessage') Message
+                  textarea#inputMessage.form-control(name='message', rows='5', placeholder='Message', required='')
+                button.btn.btn-outline-primary.px-3.py-2(type='submit') Send
+            ul.fa-ul
+              li
+                i.fa-li.fas.fa-map-marker.fa-2x(aria-hidden='true')
+                span#person-address Urbana, IL
+              li
+                i.fa-li.fab.fa-twitter.fa-2x(aria-hidden='true')
+                a(href='https://twitter.com/william_eustis', target='_blank', rel='noopener') DM Me
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js', integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js', integrity='sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js', integrity='sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js', integrity='sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js', integrity='sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js')
+    script.
+      const code_highlighting=true;
+    script#search-hit-fuse-template(type='text/x-template').
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+      <div class="search-hit-name">
+      <a href="{{relpermalink}}">{{title}}</a>
+      <div class="article-metadata search-hit-type">{{type}}</div>
+      <p class="search-hit-description">{{snippet}}</p>
+      </div>
+      </div>
+      </div>
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js', integrity='sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js', integrity='sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=', crossorigin='anonymous')
+    script(src='/js/demo.js')
+
+    // The core Firebase JS SDK is always required and must be listed first
+    script(src='/__/firebase/7.14.6/firebase-app.js')
+    //
+      TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries
+    script(src='/__/firebase/7.14.6/firebase-analytics.js')
+    script(src='https://www.gstatic.com/firebasejs/7.14.6/firebase-firestore.js')
+    // Initialize Firebase
+
+    script(src='/js/firebase.js') 
+    script(src='/js/demo2.js')
+
+    .container
+      footer.site-footer
+        p.powered-by
+          | Powered by the
+          a(href='https://sourcethemes.com/academic/', target='_blank', rel='noopener') Academic theme
+          |  for
+          a(href='https://gohugo.io', target='_blank', rel='noopener') Hugo
+          | .
+          span.float-right(aria-hidden='true')
+            a.back-to-top(href='#')
+              span.button_icon
+                i.fas.fa-chevron-up.fa-2x
+    #modal.modal.fade(role='dialog')
+      .modal-dialog
+        .modal-content
+          .modal-header
+            h5.modal-title Cite
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+          .modal-body
+            pre.
+          .modal-footer
+            a.btn.btn-outline-primary.my-1.js-copy-cite(href='#', target='_blank')
+              i.fas.fa-copy
+              | Copy
+            a.btn.btn-outline-primary.my-1.js-download-cite(href='#', target='_blank')
+              i.fas.fa-download
+              | Download
+            #modal-error
