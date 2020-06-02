@@ -12,7 +12,12 @@ firebase deploy
 
 #### TODO
 
-- Get general structure for webpage. maybe 'business card' index.html - more about me\* - there's probably an interesting way to do this - frontend 'playground' - CV/ML 'playground' - CV/Resume section
+- Get general structure for webpage. maybe 'business card' index.html
+- more about me\*
+  - there's probably an interesting way to do this
+- frontend 'playground'
+- CV/ML 'playground'
+- CV/Resume section
 
 ##### FRONTEND
 
@@ -26,13 +31,18 @@ firebase deploy
 
 - Delay loading of certain firestore connections _cough_ visitRef _cough_ - sidenote figure out why the databse call for visitRef is 30s ???
 - use my brain to think about what I need to be storing in my database
-- pay our Google overlords more money so i get less stall time on pageload: - [https://stackoverflow.com/questions/29206067/understanding-chrome-network-log-stalled-state](https://stackoverflow.com/questions/29206067/understanding-chrome-network-log-stalled-state) - also make sure to pretend that I'm going to implement sharding so that queueing becomes a non-issue
+- pay our Google overlords more money so i get less stall time on pageload: - [https://stackoverflow.com/questions/29206067/understanding-chrome-network-log-stalled-state](https://stackoverflow.com/questions/29206067/understanding-chrome-network-log-stalled-state)
+  - also make sure to pretend that I'm going to implement sharding so that queueing becomes a non-issue
 
-#### DATA ![heart eyes](https://i.pinimg.com/originals/f4/bf/92/f4bf92d41c99d853914f703e968647cd.png =25x25)
+#### DATA :)
 
 - RL Mouse movement (a)
 - transformer TTS [https://github.com/as-ideas/TransformerTTS](https://github.com/as-ideas/TransformerTTS)
-- BiT + DETR (lmao good luck running this in a browser) - choose 1: - money that i dont have to spend on an AWS V100 - users that can load my webpage in under 2 days - replacing BiT with like mobilenet and shrinking DETR so attention dot products aren't expensive https://arxiv.org/pdf/2002.04764.pdf or https://www.youtube.com/watch?v=q7QP_lfqnQM
+- BiT + DETR (lmao good luck running this in a browser)
+  - choose 1:
+    - money that i dont have to spend on an AWS V100
+    - users that can load my webpage in under 2 days
+    - replacing BiT with like mobilenet and shrinking DETR so attention dot products aren't expensive https://arxiv.org/pdf/2002.04764.pdf or https://www.youtube.com/watch?v=q7QP_lfqnQM
 -
 
 #### DONE
