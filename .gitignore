@@ -65,5 +65,8 @@ node_modules/
 .env
 key.txt
 
+<<<<<<< HEAD
 # This is where my key is :)
 public/js/firebase.js 
+=======
+>>>>>>> 46b06cf3930c4ab3faecafe4d45cb96ad6eb8e47
