@@ -305,18 +305,7 @@ html(lang='en-us')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js', integrity='sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=', crossorigin='anonymous')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js', integrity='sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=', crossorigin='anonymous')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js')
-    script.
-      const code_highlighting=true;
-    script#search-hit-fuse-template(type='text/x-template').
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-      <div class="search-hit-name">
-      <a href="{{relpermalink}}">{{title}}</a>
-      <div class="article-metadata search-hit-type">{{type}}</div>
-      <p class="search-hit-description">{{snippet}}</p>
-      </div>
-      </div>
-      </div>
+    
     script(src='https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js', integrity='sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=', crossorigin='anonymous')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js', integrity='sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=', crossorigin='anonymous')
     script(src='/js/demo.js')
@@ -332,33 +321,3 @@ html(lang='en-us')
 
     script(src='/js/firebase.js') 
     script(src='/js/demo2.js')
-
-    .container
-      footer.site-footer
-        p.powered-by
-          | Powered by the
-          a(href='https://sourcethemes.com/academic/', target='_blank', rel='noopener') Academic theme
-          |  for
-          a(href='https://gohugo.io', target='_blank', rel='noopener') Hugo
-          | .
-          span.float-right(aria-hidden='true')
-            a.back-to-top(href='#')
-              span.button_icon
-                i.fas.fa-chevron-up.fa-2x
-    #modal.modal.fade(role='dialog')
-      .modal-dialog
-        .modal-content
-          .modal-header
-            h5.modal-title Cite
-            button.close(type='button', data-dismiss='modal', aria-label='Close')
-              span(aria-hidden='true') ×
-          .modal-body
-            pre.
-          .modal-footer
-            a.btn.btn-outline-primary.my-1.js-copy-cite(href='#', target='_blank')
-              i.fas.fa-copy
-              | Copy
-            a.btn.btn-outline-primary.my-1.js-download-cite(href='#', target='_blank')
-              i.fas.fa-download
-              | Download
-            #modal-error

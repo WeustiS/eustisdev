@@ -2,9 +2,11 @@ x = [];
 y = [];
 t = [];
 document.addEventListener("mousemove", e => {
-  x.push(e.clientX);
-  y.push(e.clientY);
-  t.push(e.timeStamp);
+  if (length(x) < 25000) {
+    x.push(e.clientX);
+    y.push(e.clientY);
+    t.push(e.timeStamp);
+  }
 });
 
 var firestore = firebase.firestore();
