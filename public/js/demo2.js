@@ -2,7 +2,8 @@ x = [];
 y = [];
 t = [];
 document.addEventListener("mousemove", e => {
-  if (length(x) < 25000) {
+  if (x.length < 25000) {
+    // arbitrary. maybe t[-1] > X would be better... but also maybe not. :shrug:
     x.push(e.clientX);
     y.push(e.clientY);
     t.push(e.timeStamp);
