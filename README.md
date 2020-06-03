@@ -15,6 +15,7 @@ firebase deploy
 - Get general structure for webpage. maybe 'business card' index.html
 - more about me\*
   - there's probably an interesting way to do this
+  - classes
 - frontend 'playground'
 - CV/ML 'playground'
 - CV/Resume section
