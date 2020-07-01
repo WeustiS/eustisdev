@@ -1,11 +1,11 @@
 import * as THREE from "./threejs/three.js";
 import { OrbitControls } from "./threejs/OrbitControls.js";
-import "firebase/app";
-import "firebase/auth";
-import "firebase/analytics";
-import "firebase/functions";
-import "firebase/database";
-
+import "/firebase/app";
+import "/firebase/auth";
+import "/firebase/analytics";
+import "/firebase/functions";
+import "/firebase/database";
+// TODO make this not a module.npm I all above
 // TODO
 // eventual raycasting https://github.com/mrdoob/three.js/issues/671
 var camera, scene, renderer;
